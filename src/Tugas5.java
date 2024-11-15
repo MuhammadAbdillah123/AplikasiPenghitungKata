@@ -45,22 +45,22 @@ public class Tugas5 extends javax.swing.JFrame {
      private void updateCounts() {
         String text = jTextArea1.getText();
 
-        // Hitung kata
+        // Hitung kata 
         String[] words = text.trim().split("\\s+");
         int wordCount = words.length;
 
-        // Hitung karakter (dengan spasi)
+        // Hitung karakter (dengan spasi) 
         int charCount = text.length();
 
-        // Hitung kalimat (asumsi kalimat berakhir dengan . ! atau ?)
+        // Hitung kalimat (asumsi kalimat berakhir dengan . ! atau ?) 
         String[] sentences = text.split("[.!?]");
         int sentenceCount = sentences.length;
 
-        // Hitung paragraf (asumsi paragraf berakhir dengan newline)
+        // Hitung paragraf (asumsi paragraf berakhir dengan newline) 
         String[] paragraphs = text.split("\\n+");
         int paragraphCount = paragraphs.length;
 
-        // Tampilkan hasil ke label
+        // Tampilkan hasil ke label 
         jLabel2.setText("Jumlah Kata: " + wordCount);
         jLabel3.setText("Jumlah Karakter: " + charCount);
         jLabel4.setText("Jumlah Kalimat: " + sentenceCount);
