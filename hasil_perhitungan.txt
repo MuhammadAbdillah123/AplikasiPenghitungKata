@@ -1,0 +1,8 @@
+Teks:
+aki suka makan mie goreng asam manis ges
+
+Hasil Perhitungan:
+Jumlah Kata: 8
+Jumlah Karakter: 40
+Jumlah Kalimat: 1
+Jumlah Paragraf: 1
