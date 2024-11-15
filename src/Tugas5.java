@@ -60,7 +60,7 @@ public class Tugas5 extends javax.swing.JFrame {
         String[] paragraphs = text.split("\\n+");
         int paragraphCount = paragraphs.length;
 
-        // Tampilkan hasil ke label 
+        // Tampilkan hasil ke label
         jLabel2.setText("Jumlah Kata: " + wordCount);
         jLabel3.setText("Jumlah Karakter: " + charCount);
         jLabel4.setText("Jumlah Kalimat: " + sentenceCount);
@@ -225,7 +225,7 @@ public class Tugas5 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        updateCounts();
+        updateCounts(); 
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -234,7 +234,7 @@ public class Tugas5 extends javax.swing.JFrame {
         String searchWord = jTextField1.getText();
 
         Pattern pattern = Pattern.compile("\\b" + Pattern.quote(searchWord) + "\\b", Pattern.CASE_INSENSITIVE);
-        Matcher matcher = pattern.matcher(text);
+        Matcher matcher = pattern.matcher(text); 
 
         int count = 0;
         while (matcher.find()) {
@@ -245,7 +245,7 @@ public class Tugas5 extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Kata '" + searchWord + "' ditemukan sebanyak " + count + " kali.");
         } else {
             JOptionPane.showMessageDialog(this, "Kata '" + searchWord + "' tidak ditemukan.");
-        }
+        } 
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
