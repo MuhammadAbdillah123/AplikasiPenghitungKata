@@ -38,7 +38,7 @@ public class Tugas5 extends javax.swing.JFrame {
             @Override
             public void changedUpdate(DocumentEvent e) {
                 updateCounts();
-            }
+            } 
         });
     }
     
