@@ -251,7 +251,7 @@ public class Tugas5 extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         String text = jTextArea1.getText();
         String hasil = "Hasil Perhitungan:\n";
-        hasil += jLabel2.getText() + "\n";
+        hasil += jLabel2.getText() + "\n"; 
         hasil += jLabel3.getText() + "\n";
         hasil += jLabel4.getText() + "\n";
         hasil += jLabel5.getText() + "\n";
